@@ -28,10 +28,10 @@ def main():
     Extracurricular_Activities = {'Yes','No'}
 
     Hours_studied = st.text_input('Hours of study')
-    Previous_Scores = st.slider('Previous Score', 0,100,3)
+    Previous_Scores = st.slider('The scores obtained by students in previous tests.', 0,100,3)
     Extracurricular_Activities = st.selectbox('Extra curricular activities', Extracurricular_Activities)
-    Sleep_Hours = st.text_input('sleep Hours')
-    Sample_Question_Papers_Practiced = st.text_input('Sample_question_practiced')
+    Sleep_Hours = st.text_input('sleep Hours Per day')
+    Sample_Question_Papers_Practiced = st.text_input('The number of sample question papers the student practiced')
 
 
 
@@ -41,3 +41,4 @@ def main():
 
 if __name__=='__main__':
     main()
+
